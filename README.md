@@ -29,6 +29,46 @@ Visit the live demo at [scripts.ztmoon.com](https://scripts.ztmoon.com)
    npm run dev
    ```
 
+## Script Configuration
+
+To make your scripts compatible with this dashboard, add special command tags in your repository's README.md file. The dashboard looks for two specific tags:
+
+1. Installation Command:
+```markdown
+<!-- INSTALL_COMMAND: your-install-command-here -->
+```
+
+2. Run Command:
+```markdown
+<!-- RUN_COMMAND: your-run-command-here -->
+```
+
+### Example Repository README.md
+
+Here's a complete example of how to configure your script's README:
+
+```markdown
+# My Node.js Script
+
+A helpful utility for processing data files.
+
+<!-- INSTALL_COMMAND: npm install -g data-processor -->
+<!-- RUN_COMMAND: data-processor --input file.csv -->
+
+## Features
+- Fast processing
+- Multiple format support
+- Easy to use
+
+## Documentation
+...
+```
+
+When properly configured:
+- The "Install Script" button will copy the installation command
+- The "Run Script" button will copy the run command
+- Both commands will be displayed in the script details panel
+
 ## GitHub Token (Optional)
 
 To avoid rate limiting, you can provide a GitHub Personal Access Token:
