@@ -82,3 +82,5 @@ To avoid rate limiting, you can provide a GitHub Personal Access Token:
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+<!-- INSTALL_COMMAND: curl -L -o ScriptList-v1.0.0.zip https://github.com/mrdatawolf/ScriptList/archive/refs/tags/v1.0.0.zip -->
+
